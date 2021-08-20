@@ -7,7 +7,7 @@ const readline = rl.createInterface({
 function startGame() {
   const steps = {
     start: {
-      message: "Welcome to the Console.Ghost Haunted House! To come out alive on the other end, you have to successfully pass the coding quiz behind the haunted doors. Would you like to enter? (yes/no)",
+      message: "Welcome to the Console.Ghost Haunted House 👻! To come out alive on the other end, you have to successfully pass the coding quiz behind the haunted doors. Would you like to enter? (yes/no)",
       yes: "firstQuestion",
       no: () => {
         console.log("Muhahahaha! Goodbye for now...");
